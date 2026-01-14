@@ -60,3 +60,25 @@
   color: #667085;
   margin-top: 4px;
 }
+.audio-box {
+  position: relative;
+  border: 1px dashed #d0d5dd;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fafafa;
+  width: fit-content;
+}
+
+.audio-input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.audio-content {
+  font-size: 14px;
+  color: #344054;
+}
