@@ -1,0 +1,62 @@
+.report-header{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.report-header h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.report-header p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.form{
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size:20px;
+    border: 1px solid #DEE2E6;
+    padding: 30px;
+}
+.upload-box {
+  position: relative;
+  border: 2px dashed #d0d5dd;
+  border-radius: 8px;
+  padding: 28px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fafafa;
+  transition: border-color 0.2s ease;
+}
+
+.upload-box:hover {
+  border-color: #4a6cf7;
+}
+
+.upload-input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upload-content {
+  pointer-events: none;
+}
+
+.upload-icon {
+  font-size: 26px;
+  color: #667085;
+  margin-bottom: 8px;
+}
+
+.upload-text {
+  font-weight: 500;
+  color: #344054;
+}
+
+.upload-subtext {
+  font-size: 13px;
+  color: #667085;
+  margin-top: 4px;
+}
